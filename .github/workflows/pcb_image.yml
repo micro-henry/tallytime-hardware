@@ -9,18 +9,8 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v4
 
-        - name: Install Fonts
-          run: |
-            wget -O Inter.zip https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip
-            unzip -d inter/ Inter.zip
-            mv inter /usr/share/fonts/
-            wget -O Monaspace.zip https://github.com/githubnext/monaspace/releases/download/v1.000/monaspace-v1.000.zip
-            unzip -d monaspace/ Monaspace.zip
-            mv monaspace /usr/share/fonts/
-            fc-cache -fv
-
         - name: Render PCB Image
-          uses: linalinn/kicad-render@main
+          uses: micro-henry/kicad-render@main
           with:
             pcb_file: tallytime.kicad_pcb
             output_path: ${{ github.workspace }}/images
