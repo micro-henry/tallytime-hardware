@@ -27,6 +27,9 @@ An open-source low-cost Tally & Timecode device, powered by RP2040 & LoRa
 
 > Bottom
 > ![Bottom of PCB](https://micro-henry.github.io/tallytime-hardware/bottom.png)
+
+PCB renders generated with a modified version (custom fonts) of [linalinn/kicad-render](https://github.com/linalinn/kicad-render)
+
 ## Authors
 
 - [@Kelvin-Ziqi-Zhao](https://www.github.com/Kelvin-Ziqi-Zhao)
@@ -37,5 +40,5 @@ An open-source low-cost Tally & Timecode device, powered by RP2040 & LoRa
 
 ## License
 
-[CERN-OHL-S V2](https://ohwr.org/cern_ohl_s_v2.txt)
+[CERN-OHL-S-2.0](https://ohwr.org/cern_ohl_s_v2.txt)
 
