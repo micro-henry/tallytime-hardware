@@ -9,6 +9,16 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v4
 
+        - name: Install Fonts
+          run: |
+            wget -O Inter.zip https://fonts.google.com/download?family=Inter
+            unzip -d inter/ Inter.zip
+            mv inter /usr/share/fonts/
+            wget -O Monaspace.zip https://github.com/githubnext/monaspace/releases/download/v1.000/monaspace-v1.000.zip
+            unzip -d monaspace/ Monaspace.zip
+            mv monaspace /usr/share/fonts/
+            fc-cache -fv
+
         - name: Render PCB Image
           uses: linalinn/kicad-render@main
           with:
