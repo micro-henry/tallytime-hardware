@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "W25Q16JVUXIQ")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/W25Q16JVUXIQ.kicad_sym")(options "")(descr "W25Q16JVUXIQ Symbol from SnapEDA"))
+  (lib (name "IC_Charging")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/IC_Charging.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP6S91-E_SN")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/MCP6S91-E_SN.kicad_sym")(options "")(descr "MCP6S91-E_SN Symbol from SnapEDA"))
+)
