@@ -282,6 +282,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 116.84) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1106acd4-4f0e-4b83-9195-b51ea7ed3f04")
+	)
+	(wire
+		(pts
 			(xy 101.6 67.31) (xy 109.22 67.31)
 		)
 		(stroke
@@ -312,7 +322,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 118.11) (xy 177.8 118.11)
+			(xy 165.1 120.65) (xy 177.8 120.65)
 		)
 		(stroke
 			(width 0)
@@ -432,7 +442,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 123.19) (xy 177.8 123.19)
+			(xy 165.1 125.73) (xy 177.8 125.73)
 		)
 		(stroke
 			(width 0)
@@ -482,7 +492,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 127) (xy 177.8 127)
+			(xy 165.1 129.54) (xy 177.8 129.54)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +572,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 120.65) (xy 177.8 120.65)
+			(xy 165.1 123.19) (xy 177.8 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1119,7 +1129,7 @@
 			(uuid "622ef118-a246-4bfc-9d69-242d43dc472d")
 		)
 		(pin "GPIO23" input
-			(at 165.1 120.65 0)
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +1139,7 @@
 			(uuid "bfaec597-08f5-4e7b-aab5-53e1e6d13c51")
 		)
 		(pin "GPIO22" input
-			(at 165.1 118.11 0)
+			(at 165.1 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +1149,7 @@
 			(uuid "0bd2b0d9-14dc-4aaa-8025-10c780645439")
 		)
 		(pin "GPIO24" input
-			(at 165.1 123.19 0)
+			(at 165.1 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1159,7 @@
 			(uuid "eaa25987-a916-4945-9636-138fb7a66b18")
 		)
 		(pin "GPIO6" input
-			(at 165.1 127 0)
+			(at 165.1 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1157,6 +1167,16 @@
 				(justify right)
 			)
 			(uuid "607de8d4-dfc8-4143-a438-5c305929b322")
+		)
+		(pin "GPIO12" output
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43a34387-bcfb-449f-a5ec-bc39b679bd87")
 		)
 		(instances
 			(project "tallytime"
@@ -1589,7 +1609,7 @@
 			(uuid "e851afe2-e651-4821-a0c9-f456ce83f2d3")
 		)
 		(pin "ENC_B" output
-			(at 177.8 120.65 180)
+			(at 177.8 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1619,7 @@
 			(uuid "6669e85b-2630-4643-bbec-89e80082b0e9")
 		)
 		(pin "SW_BACK" output
-			(at 177.8 127 180)
+			(at 177.8 129.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1629,7 @@
 			(uuid "fe19ec9a-9bb3-46c9-a33b-4fc0d6d20754")
 		)
 		(pin "ENC_SW" output
-			(at 177.8 123.19 180)
+			(at 177.8 125.73 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1639,7 @@
 			(uuid "678db6a5-7799-4882-a998-6cc272d0278d")
 		)
 		(pin "ENC_A" output
-			(at 177.8 118.11 180)
+			(at 177.8 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,6 +1647,16 @@
 				(justify left)
 			)
 			(uuid "db134753-9159-41ff-a38d-6ad3d7ec67f0")
+		)
+		(pin "TALLY_OUT" input
+			(at 177.8 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "951789bb-19e0-4d31-880a-16718f2b57e6")
 		)
 		(instances
 			(project "tallytime"

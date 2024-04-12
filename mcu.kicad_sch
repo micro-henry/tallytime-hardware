@@ -1887,10 +1887,6 @@
 		(uuid "a8152809-0ec0-4443-a53c-50694e496474")
 	)
 	(no_connect
-		(at 124.46 90.17)
-		(uuid "b543406e-fe4f-4d89-b5f0-27adef3db1fd")
-	)
-	(no_connect
 		(at 124.46 72.39)
 		(uuid "ebb05253-08fa-4aaf-a5d8-59a5a51b011a")
 	)
@@ -3107,6 +3103,19 @@
 			(justify right)
 		)
 		(uuid "93b60b3e-67a1-41c9-aad1-a6b4c7289736")
+	)
+	(hierarchical_label "GPIO12"
+		(shape input)
+		(at 124.46 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ca8fcf81-9e9e-4bd5-8f17-7eb7681e8038")
 	)
 	(hierarchical_label "GPIO22"
 		(shape input)

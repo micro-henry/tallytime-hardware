@@ -2132,6 +2132,12 @@
 		(uuid "907a13d4-6f40-45ad-93fd-f6258d422efb")
 	)
 	(junction
+		(at 138.43 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0302594-cd19-467d-9d05-4affce6187ff")
+	)
+	(junction
 		(at 160.02 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2313,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 54.61) (xy 148.59 54.61)
+			(xy 129.54 54.61) (xy 138.43 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2463,6 +2469,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 45.72) (xy 138.43 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbe15c3-7b9c-4b62-9bb5-8c0af61e3367")
+	)
+	(wire
+		(pts
 			(xy 72.39 35.56) (xy 87.63 35.56)
 		)
 		(stroke
@@ -2510,6 +2526,16 @@
 			(type default)
 		)
 		(uuid "75f9b88b-f5d0-4d5c-99c6-233aa7c03be0")
+	)
+	(wire
+		(pts
+			(xy 138.43 54.61) (xy 148.59 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0ccb58-60ec-43d0-b172-704aeed9f41b")
 	)
 	(wire
 		(pts
@@ -6512,17 +6538,6 @@
 		)
 		(uuid "58f3715a-9129-404c-8afe-390ef5746f4d")
 	)
-	(label "LDO_VIN"
-		(at 140.97 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e7c62f6-4d0f-495e-86ab-6a94207cbad4")
-	)
 	(label "CHRG_STAT_1"
 		(at 72.39 40.64 0)
 		(fields_autoplaced yes)
@@ -7987,6 +8002,72 @@
 			(project "tallytime"
 				(path "/7e984edf-b9a3-46d5-a368-ca341108e5fe/a274986d-3ac0-473e-9272-3b44489a97fa"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 138.43 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "984f9783-0948-4db5-9912-8ad6dbeb2ebd")
+		(property "Reference" "#PWR058"
+			(at 138.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VIN"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VIN\""
+			(at 138.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b614bb8-2369-4d34-8fd2-cbae5f4b4735")
+		)
+		(instances
+			(project "tallytime"
+				(path "/7e984edf-b9a3-46d5-a368-ca341108e5fe/a274986d-3ac0-473e-9272-3b44489a97fa"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
